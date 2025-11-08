@@ -29,7 +29,7 @@ def stk_push():
    "Password": encodedPassword,    
    "Timestamp":TIMESTAMP,    
    "TransactionType": "CustomerPayBillOnline",    
-   "Amount": "1",    
+   "Amount": "30000",    
    "PartyA":phone_num,      
    "PartyB":"174379",    
    "PhoneNumber":phone_num,    
