@@ -10,7 +10,7 @@ STK_URL = "https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest"
 SHORT_CODE = "174379"
 PASS_KEY = "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919"
 TIMESTAMP = datetime.now().strftime('%Y%m%d%H%M%S')
-phone_num = "254758003022"
+phone_num = "254758052916"
 def generate_password():
     password = f'{SHORT_CODE}{PASS_KEY}{TIMESTAMP}'
     encodedPassword = base64.b64encode(password.encode()).decode() #encoding password
